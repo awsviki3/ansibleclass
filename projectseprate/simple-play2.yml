@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  vars:
+    loop_1: "hello1"
+  tasks:
+    - include: tasks/second-task.yml
